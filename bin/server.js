@@ -1,7 +1,7 @@
 const app = require('../src/app');
 
 const port = normalizaPort(process.env.PORT || '3000');
-console.log(process.env.PORT)
+
 
 
 function normalizaPort(val){
